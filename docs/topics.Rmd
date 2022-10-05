@@ -1,6 +1,9 @@
 ---
 title: "Темы курсовых и дипломных работ"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
 date: '2022-23'
 ---
 

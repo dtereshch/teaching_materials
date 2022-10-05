@@ -1,6 +1,9 @@
 ---
 title: "Основные этапы работы"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
 date: '2022-23'
 ---
 
@@ -75,7 +78,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Форма отчета**: черновой вариант работы, обсуждение с руководителем.  
 
-**Срок**: 1 мая
+**Срок**: 1 мая.
 
 
 ## Итоговый вариант работы
